@@ -1,0 +1,22 @@
+{
+  "name": "bookmark-landing-page-master",
+  "version": "1.0.0",
+  "description": "![Design preview for the Bookmark landing page coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "postcss:watch": "postcss src/style.css --dir style --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@kameleonweb:projects/bookmark-landing-page-master.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "postcss": "^8.4.5",
+    "postcss-cli": "^9.1.0",
+    "postcss-import": "^14.0.2",
+    "postcss-preset-env": "^7.2.0"
+  }
+}
