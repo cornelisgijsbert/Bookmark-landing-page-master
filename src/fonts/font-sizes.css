@@ -9,3 +9,24 @@ div.wrapper {
 ul.top--nav--links {
     font-size: .6875rem;
 }
+
+h1.intro--header {
+    font-size: 1.75rem;
+}
+
+p.intro--para {
+    font-size: .875rem;
+}
+
+form.btns button {
+    font-size: .875rem;
+    font-weight: 500;
+}
+
+h2.features--header {
+    font-size: 1.3125rem;
+}
+
+p.features--para {
+    font-size: .875rem;
+}

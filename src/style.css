@@ -1,6 +1,11 @@
 @import 'base/base.css';
+@import 'base/navigation.css';
 @import 'base/reset.css';
 
+@import 'components/buttons.css';
+
 @import 'fonts/font-sizes.css';
+
+@import 'media/image.css';
 
 @import 'utilities/colors.css';

@@ -1,0 +1,24 @@
+form.btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+form.btns button {
+    width: 9.4375rem;
+    height: 3rem;
+    border-radius: .5rem;
+}
+
+button.intro--chrome {
+    background-color: var(--soft-blue);
+    color: white;
+    border-color: var(--soft-blue);
+    box-shadow: .1rem .1rem .3rem var(--soft-blue);
+}
+
+button.intro--firefox {
+    background-color: rgb(247, 247, 247);
+    border-color: rgb(247, 247, 247);
+    box-shadow: .1rem .1rem .3rem rgb(247, 247, 247);
+}
