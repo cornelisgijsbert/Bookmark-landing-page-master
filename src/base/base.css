@@ -1,3 +1,71 @@
-body {
-    font-size: 16px;
+div.wrapper {
+  max-width: 1440px;
+}
+nav.top--nav {
+  position: relative;
+  width: 100%;
+  height: 8.5625rem;
+}
+nav img.top--nav--logo {
+  position: absolute;
+  top: 3.5rem;
+  left: 11.875%;
+}
+
+nav img.top--nav--hamburger {
+  display: none;
+}
+
+div.container {
+  display: block;
+}
+
+ul.top--nav--links {
+  position: absolute;
+  top: 3.2rem;
+  right: 11.458%;
+  display: flex;
+  flex-direction: row;
+  column-gap: 3.5em;
+  align-items: baseline;
+  list-style: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+ul.top--nav--links li:hover {
+  color: var(--soft-red);
+  cursor: pointer;
+}
+
+ul.top--nav--links li:last-child {
+  background-color: var(--soft-red);
+  color: white;
+  border: solid 2px var(--soft-red);
+  border-radius: 5px;
+  padding: 0.8em 2.3em;
+}
+
+ul.top--nav--links li:last-child:hover {
+  background-color: white;
+  color: var(--soft-red);
+}
+
+@media only screen and (max-width: 768px) {
+  nav img.top--nav--logo {
+    top: 2.5rem;
+    left: 8.5%;
+  }
+  ul.top--nav--links {
+    top: 5rem;
+    left: 8.5%;
+    display: none;
+    column-gap: 1.5em;
+  }
+  nav img.top--nav--hamburger {
+    position: absolute;
+    top: 2.8125rem;
+    right: 8.5%;
+    display: block;
+  }
 }
