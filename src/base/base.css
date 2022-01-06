@@ -1,5 +1,5 @@
 div.wrapper {
-  max-width: 1440px;
+    max-width: 1440px;
 }
 
 header.intro {
@@ -16,4 +16,8 @@ section.features {
     margin: 0 auto;
     padding-top: 9.8125rem;
     text-align: center;
+}
+
+.features article {
+    margin-top: 4.5rem;
 }

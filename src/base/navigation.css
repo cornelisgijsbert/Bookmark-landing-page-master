@@ -14,10 +14,6 @@ nav img.top--nav--hamburger {
     display: none;
 }
 
-div.container {
-    display: block;
-}
-
 ul.top--nav--links {
     position: absolute;
     top: 3.2rem;
@@ -46,6 +42,10 @@ ul.top--nav--links li:last-child {
 ul.top--nav--links li:last-child:hover {
     background-color: white;
     color: var(--soft-red);
+}
+
+ul.features--tabs li {
+    padding: 1.3125rem 0;
 }
 
 @media only screen and (max-width: 768px) {
