@@ -18,6 +18,55 @@ section.features {
     text-align: center;
 }
 
-.features article {
+section.features div.features--img-container {
+    position: relative;
+    width: 100%;
+    height: 14.875rem;
+    margin-bottom: 3rem;
+}
+
+section.features div.features--img-bg-1 {
+    position: absolute;
+    left: -10.5%;
+    z-index: -1;
+    bottom: 0;
+    background-color: var(--soft-blue);
+    width: 100%;
+    height: 12.6875rem;
+    border-bottom-right-radius: 40%;
+}
+
+section.features div.features--img-bg-2 {
+    position: absolute;
+    left: -10.5%;
+    z-index: -1;
+    bottom: 0;
+    background-color: var(--soft-blue);
+    width: 100%;
+    height: 14rem;
+    border-bottom-right-radius: 40%;
+}
+
+section.features div.features--img-bg-3 {
+    position: absolute;
+    left: -10.5%;
+    z-index: -1;
+    bottom: 0;
+    background-color: var(--soft-blue);
+    width: 100%;
+    height: 12.6875rem;
+    border-bottom-right-radius: 40%;
+}
+
+section.features h2 {
+    padding-bottom: 1em;
+}
+
+section.features p.features--para {
+    padding-bottom: 3.1428rem;
+}
+
+section.features article {
     margin-top: 4.5rem;
 }
+
