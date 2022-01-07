@@ -4,9 +4,23 @@
     display: flex;
     flex-direction: column;
     row-gap: 2rem;
-    width: 83%;
-    margin: 0 auto;
+    /*width: 83%;*/
+    width: 100%;
+    padding: 0 .7rem;
     text-align: center;
+}header.intro .intro--img-container {
+    position: relative;
+    width: 100%;
+    height: calc(100vw/1.44);
+}header.intro .intro--img-bg {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-color: var(--soft-blue);
+    width: 80%;
+    height: calc(100vw/1.8473);
+    border-bottom-left-radius: 32%;
 }section.features {
     width: 83%;
     margin: 0 auto;
