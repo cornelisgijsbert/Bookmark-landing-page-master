@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');div.wrapper {
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap");div.wrapper {
   max-width: 1440px;
 }/* section header */header.intro {
   display: flex;
@@ -98,6 +98,34 @@ section.features article.tab-1 {
   padding-bottom: 1em;
 }section.features article {
   margin-top: 4.5rem;
+}/* section download */section.download {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}section.download h2.download--header {
+    width: 18rem;
+    padding-bottom: 1em;
+}section.download p.download--para {
+    width: 18rem;
+    color: var(--grayish-blue);
+    line-height: 1.5;
+}section.download ul.download--cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}section.download ul.download--cards li {
+    width: 280px;
+    text-align: center;
+}section.download h3.download--cards-header {
+    padding-bottom: .7894em;
+}section.download p.download--cards-para {
+    padding-bottom: 3em;
+    color: var(--grayish-blue);
+}section.download h2.download--card-header {
+    padding-bottom: 1em;
 }nav.top--nav {
     position: relative;
     width: 100%;
@@ -198,26 +226,48 @@ section.features article.tab-1 {
     height: 3rem;
     border: 0;
     border-radius: .25rem;
+}/* button download */section.download .download--cards button {
+    background-color: var(--soft-blue);
+    width: 14.5rem;
+    height: 3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5625rem;
+    color: white;
+    border: 0;
+    border-radius: .25rem;
 }/* font-family: 'Rubik', sans-serif; */div.wrapper {
-    font-family: 'Rubik', sans-serif;
-    font-size: 18px;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.125rem; /* 18px */
 }ul.top--nav--links {
-    font-size: .6875rem;
+  font-size: 0.6875rem;
 }h1.intro--header {
-    font-size: 1.75rem;
-    font-weight: 500;
+  font-size: 1.75rem;
+  font-weight: 500;
 }p.intro--para {
-    font-size: .875rem;
+  font-size: 0.875rem;
 }form.btns button {
-    font-size: .875rem;
-    font-weight: 500;
+  font-size: 0.875rem;
+  font-weight: 500;
 }h2.features--header {
-    font-size: 1.3125rem;
-    font-weight: 500;
+  font-size: 1.3125rem;
+  font-weight: 500;
 }p.features--para {
-    font-size: .875rem;
+  font-size: 0.875rem;
+  font-weight: 400;
 }ul.features--tabs {
-    font-size: 1rem;
+  font-size: 1rem;
+}.download h2 {
+  font-size: 1.3125rem;
+  font-weight: 500;
+}.download p {
+  font-size: 0.875rem;
+  font-weight: 400;
+}.download h3 {
+  font-size: 1.1875rem;
+  font-weight: 500;
+}section.download .download--cards button {
+  font-size: 0.875rem;
+  font-weight: 500;
 }div.intro--img-container img {
     width: 100%;
 }div.features--img-container-1 img {

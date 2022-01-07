@@ -143,3 +143,48 @@ section.features h2 {
 section.features article {
   margin-top: 4.5rem;
 }
+
+/* section download */
+section.download {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+
+section.download h2.download--header {
+    width: 18rem;
+    padding-bottom: 1em;
+}
+
+section.download p.download--para {
+    width: 18rem;
+    color: var(--grayish-blue);
+    line-height: 1.5;
+}
+
+section.download ul.download--cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+section.download ul.download--cards li {
+    width: 280px;
+    text-align: center;
+}
+
+section.download h3.download--cards-header {
+    padding-bottom: .7894em;
+}
+
+section.download p.download--cards-para {
+    padding-bottom: 3em;
+    color: var(--grayish-blue);
+}
+
+section.download h2.download--card-header {
+    padding-bottom: 1em;
+}
