@@ -2,23 +2,37 @@ form.btns {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 19.4375rem;
+    margin: 0 auto;
 }
 
 form.btns button {
-    width: 9.4375rem;
-    height: 3rem;
     border-radius: .5rem;
 }
 
 button.intro--chrome {
     background-color: var(--soft-blue);
     color: white;
+    width: 9.4375rem;
+    height: 3rem;
     border-color: var(--soft-blue);
     box-shadow: .1rem .1rem .3rem var(--soft-blue);
 }
 
 button.intro--firefox {
     background-color: rgb(247, 247, 247);
+    width: 9.125rem;
+    height: 3rem;
     border-color: rgb(247, 247, 247);
     box-shadow: .1rem .1rem .3rem rgb(247, 247, 247);
+}
+
+/* button features*/
+section.features article button {
+    background-color: var(--soft-blue);
+    color: white;
+    width: 7.125rem;
+    height: 3rem;
+    border: 0;
+    border-radius: .25rem;
 }

@@ -13,6 +13,7 @@ ul.top--nav--links {
 
 h1.intro--header {
     font-size: 1.75rem;
+    font-weight: 500;
 }
 
 p.intro--para {
@@ -26,6 +27,7 @@ form.btns button {
 
 h2.features--header {
     font-size: 1.3125rem;
+    font-weight: 500;
 }
 
 p.features--para {
