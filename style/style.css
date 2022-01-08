@@ -238,9 +238,17 @@ section.features article.tab-1 {
 }/* font-family: 'Rubik', sans-serif; */:root {
   --font--h1--mobile: 1.75rem; /* 28px */
   --font--h1--desktop: 2.75rem; /* 44px */
-  --font--h2: 1.3125rem; /* 21px */
-  --font--h3: 1.1875rem; /* 19px */
-  --font--nav--top: 0.6875rem; /* 11px */
+  --font--h2--mobile: 1.3125rem; /* 21px */
+  --font--h2--desktop: 1.8125rem; /* 29px */
+  --font--h3--mobile: 1.1875rem; /* 19px */
+  --font--h3--desktop: 1.1875rem; /* 19px */
+  --font--nav--top--mobile: 0.875rem; /* 14px */
+  --font--nav--top--desktop: 0.5625rem; /* 9px */
+  --font--para--l--mobile: 0.875rem; /* 14px */
+  --font--para--l--desktop: 1.125rem; /* 18px */
+  --font--para--s--desktop: 0.875rem; /* 14px */
+  --font--tab--mobile: 0.9375rem; /* 15px */
+  --font--tab--desktop: 0.9375rem; /* 15px */
 }div.wrapper {
   font-family: "Rubik", sans-serif;
   font-size: 1.125rem; /* 18px */
