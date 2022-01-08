@@ -1,0 +1,115 @@
+/* section features */
+
+section.features {
+  width: 100%;
+  padding-top: 9.8125rem;
+  padding-right: 2rem;
+  padding-bottom: 0;
+  padding-left: 2rem;
+  text-align: center;
+}
+
+h2.features--header {
+  padding-bottom: 1em;
+  font-size: var(--font--h2--mobile);
+  font-weight: 500;
+}
+
+section.features p.features--para {
+  color: var(--grayish-blue);
+  width: 18rem;
+  margin: 0 auto;
+  padding-bottom: 3.14em;
+  font-size: var(--font--para--l--mobile);
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+ul.features--tabs {
+  font-size: var(--font--tab--mobile);
+}
+
+section.features hr {
+  background-color: var(--grayish-blue);
+  color: var(--grayish-blue);
+  height: 0.0625rem;
+  border-width: 0;
+  opacity: 0.5;
+}
+
+section.features article {
+  margin-top: 4.5rem;
+}
+/* tab 1 */
+
+/*
+  section.features article.tab-1 {
+      display: block;
+  }
+  */
+
+section.features div.features--img-container-1 {
+  position: relative;
+  width: 100%;
+  height: calc(100vw / 1.5756);
+  margin-bottom: 3rem;
+}
+
+section.features div.features--img-bg-1 {
+  position: absolute;
+  left: -2rem;
+  z-index: -1;
+  bottom: 0;
+  background-color: var(--soft-blue);
+  width: 93%;
+  height: calc(100vw / 1.8473);
+  border-bottom-right-radius: 32%;
+}
+
+/* tab 2 */
+
+section.features article.tab-2 {
+  display: none;
+}
+
+section.features div.features--img-container-2 {
+  position: relative;
+  width: 100%;
+  height: calc(100vw / 1.2175);
+  margin-bottom: 3rem;
+}
+
+section.features div.features--img-bg-2 {
+  position: absolute;
+  left: -2rem;
+  z-index: -1;
+  bottom: 0;
+  background-color: var(--soft-blue);
+  width: 83%;
+  height: calc(100vw / 1.39);
+  border-bottom-right-radius: 40%;
+}
+
+/* tab 3 */
+
+section.features article.tab-3 {
+  display: none;
+}
+
+section.features div.features--img-container-3 {
+  position: relative;
+  width: 100%;
+  height: calc(100vw / 1.2254);
+  margin-bottom: 3rem;
+}
+
+section.features div.features--img-bg-3 {
+  position: absolute;
+  left: -10.5%;
+  z-index: -1;
+  bottom: 0;
+  background-color: var(--soft-blue);
+  width: 90%;
+  height: calc(100vw / 1.42);
+  border-bottom-right-radius: 40%;
+}
