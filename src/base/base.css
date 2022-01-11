@@ -90,6 +90,10 @@ section.faq {
   margin: 0 auto;
 }
 
+section.faq div {
+  position: relative;
+}
+
 section.faq h2.faq--header {
   font-size: var(--font--h2--mobile);
   font-weight: 500;
@@ -111,7 +115,6 @@ section.faq p.faq--para {
 }
 
 section.faq h4.faq--questions-header {
-  position: relative;
   padding-top: 0.5em;
   font-size: var(--font--h4--mobile);
   font-weight: 500;
@@ -137,12 +140,12 @@ section.faq hr {
 section.faq p.faq--answer-para {
   font-size: var(--font--para--l--mobile);
   position: absolute;
-  top: 2em;
+  top: 3em;
   left: 0;
-  z-index: 2;
+  z-index: 1;
   display: none;
 }
 
-h4.faq--questions-header:hover p.faq--answer-para {
+section.faq h4.faq--questions-header:hover p.faq--answer-para {
   display: block;
 }
