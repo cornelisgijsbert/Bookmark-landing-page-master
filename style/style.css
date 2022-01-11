@@ -57,23 +57,35 @@
 }section.faq {
   display: flex;
   flex-direction: column;
+  row-gap: 1.25rem;
   width: 19.5rem;
   margin: 0 auto;
 }section.faq h2.faq--header {
   font-size: var(--font--h2--mobile);
   font-weight: 500;
-  padding-bottom: 1.1363em;
+  padding-top: 0;
+  padding-right: 0.5em;
+  padding-bottom: 0.3em;
+  padding-left: 0.5em;
   text-align: center;
 }section.faq p.faq--para {
   font-size: var(--font--para--l--mobile);
-  padding-bottom: 5.3571em;
+  padding-top: 0;
+  padding-right: 0.5em;
+  padding-bottom: 4em;
+  padding-left: 0.5em;
   text-align: center;
   line-height: 1.5;
 }section.faq h4.faq--questions-header {
-  padding-top: 2.1428em;
-  padding-bottom: 1.4285em;
+  position: relative;
+  padding-top: 0.5em;
   font-size: var(--font--h4--mobile);
   font-weight: 500;
+  cursor: pointer;
+}section.faq h4.faq--questions-header img {
+  float: right;
+}section.faq h4.faq--questions-header:hover img {
+  transform: scaleY(-1);
 }section.faq hr {
   background-color: var(--grayish-blue);
   color: var(--grayish-blue);
@@ -82,7 +94,13 @@
   opacity: 0.5;
 }section.faq p.faq--answer-para {
   font-size: var(--font--para--l--mobile);
+  position: absolute;
+  top: 2em;
+  left: 0;
+  z-index: 2;
   display: none;
+}h4.faq--questions-header:hover p.faq--answer-para {
+  display: block;
 }/* section features */section.features {
   width: 100%;
   padding-top: 9.8125rem;
