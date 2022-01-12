@@ -56,3 +56,29 @@ section.download .download--cards button {
   font-size: var(--font--cards--button--mobile);
   font-weight: 500;
 }
+
+/* button faq */
+section.faq div.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section.faq button {
+  background-color: var(--soft-blue);
+  color: white;
+  width: 7.125rem;
+  height: 3rem;
+  border: 0;
+  border-radius: 0.25rem;
+  margin-top: 2.75rem;
+}
+
+section.contact--us form.contact--us-btns {
+  display: flex;
+  flex-direction: column;
+}
+
+section.contact--us input {
+  width: 19.4375rem;
+  height: 3rem;
+}

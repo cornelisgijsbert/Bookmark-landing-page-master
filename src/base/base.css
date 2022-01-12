@@ -88,10 +88,7 @@ section.faq {
   row-gap: 1.25rem;
   width: 19.5rem;
   margin: 0 auto;
-}
-
-section.faq div {
-  position: relative;
+  padding-bottom: 7.6875rem;
 }
 
 section.faq h2.faq--header {
@@ -127,6 +124,7 @@ section.faq h4.faq--questions-header img {
 
 section.faq h4.faq--questions-header:hover img {
   transform: scaleY(-1);
+  filter: hue-rotate(90deg);
 }
 
 section.faq hr {
@@ -139,13 +137,22 @@ section.faq hr {
 
 section.faq p.faq--answer-para {
   font-size: var(--font--para--l--mobile);
-  position: absolute;
-  top: 3em;
-  left: 0;
-  z-index: 1;
   display: none;
 }
 
-section.faq h4.faq--questions-header:hover p.faq--answer-para {
+section.faq h4.faq--questions-header:hover p#answer-1 {
   display: block;
+}
+
+section.contact--us {
+  background-color: var(--soft-blue);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+footer {
+  background-color: var(--very-dark-blue);
 }

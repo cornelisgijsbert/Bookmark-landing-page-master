@@ -73,3 +73,14 @@ ul.features--tabs li {
     column-gap: 1.5em;
   }
 }
+
+nav.bottom--nav {
+  display: flex;
+  flex-direction: column;
+}
+
+nav.bottom--nav .bottom--nav--logo {
+  /*width: 148px;
+  height: 25px;*/
+  object-fit: none;
+}
