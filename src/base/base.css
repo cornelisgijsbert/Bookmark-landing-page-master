@@ -137,7 +137,7 @@ section.faq hr {
 
 section.faq p.faq--answer-para {
   font-size: var(--font--para--l--mobile);
-  display: none;
+  /*display: none;*/
 }
 
 section.faq h4.faq--questions-header:hover p#answer-1 {
@@ -150,9 +150,28 @@ section.contact--us {
   flex-direction: column;
   align-items: center;
   color: white;
+  padding-top: 4rem;
+  padding-right: 2rem;
+  padding-bottom: 4rem;
+  padding-left: 2rem;
   text-align: center;
+}
+
+section.contact--us span {
+  font-size: var(--font--para--m--mobile);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+}
+
+section.contact--us h2 {
+  font-size: var(--font--h2--mobile);
+  padding-top: 0.909em;
+  padding-bottom: 1.4545em;
 }
 
 footer {
   background-color: var(--very-dark-blue);
+  padding-top: 2.5rem;
+  padding-bottom: 2.75rem;
 }

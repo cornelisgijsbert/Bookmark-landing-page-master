@@ -77,10 +77,30 @@ ul.features--tabs li {
 nav.bottom--nav {
   display: flex;
   flex-direction: column;
+  row-gap: 2.625rem;
+  align-items: center;
+  color: white;
 }
 
-nav.bottom--nav .bottom--nav--logo {
-  /*width: 148px;
-  height: 25px;*/
+nav.bottom--nav img.bottom--nav--logo {
   object-fit: none;
+}
+
+nav.bottom--nav ul.bottom--nav--links {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2.375rem;
+  font-size: var(--font--para--lm--mobile);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+nav.bottom--nav div.social--media {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 5.5rem;
+  padding-top: 0.625rem;
+  padding-bottom: 2.75rem;
 }
