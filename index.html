@@ -30,16 +30,25 @@
       <!-- navigation -->
       <nav class="top--nav">
         <img alt="logo" class="top--nav--logo" src="images/logo-bookmark.svg" />
-        <ul class="top--nav--links" id="top-links">
-          <li>Features</li>
-          <li>Pricing</li>
-          <li>Contact</li>
-          <li>Login</li>
-        </ul>
-        <a href="javascript:void(0);" onclick="mobileMenu()"
-          ><img
+        <div class="top--nav--content" id="top--nav--mobile-menu">
+          <ul class="top--nav--links" id="top-links">
+            <li>Features</li>
+            <li>Pricing</li>
+            <li>Contact</li>
+            <li>Login</li>
+          </ul>
+          <a href="#"
+            ><img
+              src="images/icon-close.svg"
+              alt="close button"
+              class="top--nav--close"
+          /></a>
+        </div>
+        <a href="#">
+          <img
             alt="hamburger icon"
             class="top--nav--hamburger"
+            id="top--nav--menu-btn"
             src="images/icon-hamburger.svg"
         /></a>
       </nav>
