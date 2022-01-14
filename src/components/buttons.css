@@ -1,99 +1,119 @@
 form.btns {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 19.4375rem;
-  margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 19.4375rem;
+    margin: 0 auto;
 }
 
 form.btns button {
-  font-size: var(--font--form--button--mobile);
-  font-weight: 500;
-  border-radius: 0.5rem;
+    font-size: var(--font--form--button--mobile);
+    font-weight: 500;
+    border-radius: 0.5rem;
 }
 
 button.intro--chrome {
-  background-color: var(--soft-blue);
-  color: white;
-  width: 9.4375rem;
-  height: 3rem;
-  border-color: var(--soft-blue);
-  box-shadow: 0.1rem 0.1rem 0.3rem var(--soft-blue);
+    background-color: var(--soft-blue);
+    color: white;
+    width: 9.4375rem;
+    height: 3rem;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    border-color: var(--soft-blue);
+    box-shadow: 0.1rem 0.1rem 0.3rem var(--soft-blue);
 }
 
 button.intro--firefox {
-  background-color: rgb(247, 247, 247);
-  width: 9.125rem;
-  height: 3rem;
-  border-color: rgb(247, 247, 247);
-  box-shadow: 0.1rem 0.1rem 0.3rem rgb(247, 247, 247);
+    background-color: rgb(247, 247, 247);
+    width: 9.125rem;
+    height: 3rem;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    border-color: rgb(247, 247, 247);
+    box-shadow: 0.1rem 0.1rem 0.3rem rgb(247, 247, 247);
 }
+
 
 /* button features*/
+
 section.features article button {
-  display: none;
-  background-color: var(--soft-blue);
-  color: white;
-  width: 7.125rem;
-  height: 3rem;
-  border: 0;
-  border-radius: 0.25rem;
+    display: none;
+    background-color: var(--soft-blue);
+    color: white;
+    width: 7.125rem;
+    height: 3rem;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    border: 0;
+    border-radius: 0.25rem;
 }
+
 
 /* button download */
+
 section.download .download--cards button {
-  background-color: var(--soft-blue);
-  width: 14.5rem;
-  height: 3rem;
-  margin-top: 1.5rem;
-  margin-bottom: 1.5625rem;
-  color: white;
-  border: 0;
-  border-radius: 0.25rem;
+    background-color: var(--soft-blue);
+    width: 14.5rem;
+    height: 3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5625rem;
+    color: white;
+    border: 0;
+    border-radius: 0.25rem;
 }
 
 section.download .download--cards button {
-  font-size: var(--font--cards--button--mobile);
-  font-weight: 500;
+    font-size: var(--font--cards--button--mobile);
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
 }
+
 
 /* button faq */
+
 section.faq div.btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-section.faq button {
-  background-color: var(--soft-blue);
-  color: white;
-  width: 7.125rem;
-  height: 3rem;
-  border: 0;
-  border-radius: 0.25rem;
-  margin-top: 2.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+section.faq button {
+    background-color: var(--soft-blue);
+    color: white;
+    width: 7.125rem;
+    height: 3rem;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    border: 0;
+    border-radius: 0.25rem;
+    margin-top: 2.75rem;
+}
+
+
+/* section contact us */
+
 section.contact--us form.contact--us-btns {
-  display: flex;
-  flex-direction: column;
-  row-gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
 }
 
 section.contact--us input {
-  width: 19.4375rem;
-  height: 3rem;
-  border: none;
-  border-radius: 0.25rem;
+    width: 19.4375rem;
+    height: 3rem;
+    border: none;
+    border-radius: 0.25rem;
 }
 
 section.contact--us [type="text"] {
-  color: var(--grayish-blue);
-  padding-left: 1.5em;
+    color: var(--grayish-blue);
+    padding-left: 1.5em;
 }
 
 section.contact--us [type="button"] {
-  background-color: var(--soft-red);
-  color: white;
-  font-weight: 500;
-  cursor: pointer;
+    background-color: var(--soft-red);
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
 }
