@@ -29,6 +29,10 @@ ul.features--tabs {
   font-size: var(--font--tab--mobile);
 }
 
+ul.features--tabs li {
+  border-bottom: 0.3em solid var(--soft-red);
+}
+
 section.features hr {
   background-color: var(--grayish-blue);
   color: var(--grayish-blue);
