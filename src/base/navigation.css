@@ -10,6 +10,14 @@ nav img.top--nav--logo {
   left: 11.875%;
 }
 
+nav hr.top--nav--rule {
+  display: none;
+}
+
+nav div.social--media-top {
+  display: none;
+}
+
 nav img.top--nav--hamburger {
   display: none;
 }
@@ -52,6 +60,8 @@ ul.top--nav--links li:last-child:hover {
   color: var(--soft-red);
 }
 
+/* navigation features tabs */
+
 ul.features--tabs li {
   padding: 1.3125rem 0;
 }
@@ -63,36 +73,59 @@ ul.features--tabs li {
   }
   div.top--nav--content {
     background-color: var(--very-dark-blue);
+    opacity: 0.95;
     color: white;
     display: none;
     top: 0;
     left: 0;
     z-index: 1;
     width: 100vw;
-    height: 100vw;
+    height: 100vh;
     padding: 2.5rem 2rem auto 2rem;
   }
 
   ul.top--nav--links {
     flex-direction: column;
     column-gap: 0;
-    row-gap: 3rem;
+    row-gap: 1.625rem;
     align-items: center;
+    margin-top: 6.5625rem;
     font-size: var(--font--nav--top--mobile);
+    text-align: center;
   }
 
   ul.top--nav--links li:last-child {
     background-color: var(--very-dark-blue);
     color: white;
-    width: 100%;
+    width: 22em;
+    height: 3.4285em;
     border: solid 2px white;
     border-radius: 5px;
-    padding: 1em auto;
+    padding: 1.2142em auto;
   }
 
   ul.top--nav--links li:last-child:hover {
     background-color: var(--very-dark-blue);
     color: white;
+  }
+
+  nav hr.top--nav--rule {
+    display: block;
+    width: 19.4375rem;
+    background-color: var(--grayish-blue);
+    color: var(--grayish-blue);
+    height: 0.0625rem;
+    border-width: 0;
+    opacity: 0.5;
+  }
+
+  nav div.social--media-top {
+    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 5.5rem;
+    margin: 13.6875rem auto;
   }
 
   nav img.top--nav--hamburger {
@@ -105,20 +138,22 @@ ul.features--tabs li {
   nav img.top--nav--close {
     display: block;
     position: absolute;
-    top: 1rem;
-    right: 1rem;
+    top: 2.8125rem;
+    right: 2rem;
   }
 }
 
-/*@media only screen and (max-width: 768px) {
-  ul.top--nav--links.responsive {
-    top: 5rem;
-    left: 8.5%;
-    display: flex;
-    column-gap: 1.5em;
+@media only screen and (max-width: 768px) {
+  div.responsive {
+    display: block;
   }
-}*/
+  img.filter-logo {
+    filter: grayscale(100%) invert(100%) brightness(200%);
+    z-index: 2;
+  }
+}
 
+/* navigation bottom */
 nav.bottom--nav {
   display: flex;
   flex-direction: column;

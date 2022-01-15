@@ -29,22 +29,43 @@
     <div class="wrapper">
       <!-- navigation -->
       <nav class="top--nav">
-        <img alt="logo" class="top--nav--logo" src="images/logo-bookmark.svg" />
+        <img
+          alt="logo"
+          class="top--nav--logo"
+          src="images/logo-bookmark.svg"
+          id="top--nav--logo--menu"
+        />
         <div class="top--nav--content" id="top--nav--mobile-menu">
           <ul class="top--nav--links" id="top-links">
+            <hr class="top--nav--rule" />
             <li>Features</li>
+            <hr class="top--nav--rule" />
             <li>Pricing</li>
+            <hr class="top--nav--rule" />
             <li>Contact</li>
+            <hr class="top--nav--rule" />
             <li>Login</li>
           </ul>
-          <a href="#"
+          <div class="social--media-top">
+            <img
+              style="object-fit: none"
+              src="images/icon-facebook.svg"
+              alt="facebook"
+            />
+            <img
+              style="object-fit: none"
+              src="images/icon-twitter.svg"
+              alt="twitter"
+            />
+          </div>
+          <a href="javascript:void(0);" onclick="closeMenu()" ;
             ><img
               src="images/icon-close.svg"
               alt="close button"
               class="top--nav--close"
           /></a>
         </div>
-        <a href="#">
+        <a href="javascript:void(0);" onclick="showMenu()" ;>
           <img
             alt="hamburger icon"
             class="top--nav--hamburger"
@@ -281,15 +302,5 @@
       </footer>
     </div>
     <script src="js/main.js"></script>
-    <!--<script>
-      function mobileMenu() {
-        var x = document.getElementById("top-links");
-        if (x.className === "top--nav--links") {
-          x.className += " responsive";
-        } else {
-          x.className = "top--nav--links";
-        }
-      }
-    </script>-->
   </body>
 </html>
