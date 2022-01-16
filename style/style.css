@@ -84,9 +84,9 @@
   font-size: var(--font--h4--mobile);
   font-weight: 500;
   cursor: pointer;
-}section.faq h4.faq--questions-header img {
+}section.faq img.faq--questions---btn {
   float: right;
-}section.faq h4.faq--questions-header:hover img {
+}section.faq img.img--active {
   transform: scaleY(-1);
   filter: hue-rotate(90deg);
 }section.faq hr {
@@ -103,8 +103,6 @@
   line-height: 2;
   letter-spacing: 0.05em;
   display: none;
-}section.faq h4.faq--questions-header:hover p.faq--answer-para {
-  display: block;
 }section.contact--us {
   background-color: var(--soft-blue);
   display: flex;

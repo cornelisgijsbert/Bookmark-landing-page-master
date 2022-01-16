@@ -49,5 +49,11 @@ for (i = 0; i < acc.length; i++) {
         } else {
             panel.style.display = "block";
         }
+        arrowBtn = document.getElementsByClassName("faq--questions---btn");
+        for (i = 0; i < arrowBtn.length; i++) {
+          arrowBtn[i].className = arrowBtn[i].className.replace(" img--active", "");
+        }
+        arrowBtn.className += " img--active";
+        console.log(arrowBtn);
     });
 }

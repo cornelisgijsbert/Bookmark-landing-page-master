@@ -122,11 +122,11 @@ section.faq h4.faq--questions-header {
   cursor: pointer;
 }
 
-section.faq h4.faq--questions-header img {
+section.faq img.faq--questions---btn {
   float: right;
 }
 
-section.faq h4.faq--questions-header:hover img {
+section.faq img.img--active {
   transform: scaleY(-1);
   filter: hue-rotate(90deg);
 }
@@ -147,10 +147,6 @@ section.faq p.faq--answer-para {
   line-height: 2;
   letter-spacing: 0.05em;
   display: none;
-}
-
-section.faq h4.faq--questions-header:hover p.faq--answer-para {
-  display: block;
 }
 
 section.contact--us {
