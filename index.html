@@ -99,15 +99,21 @@
         </p>
         <ul class="features--tabs">
           <hr />
-          <li>Simple Bookmarking</li>
+          <li class="tablinks" onclick="openTab(event, 'bookmarking');">
+            Simple Bookmarking
+          </li>
           <hr />
-          <li>Speedy Searching</li>
+          <li class="tablinks" onclick="openTab(event, 'searching');">
+            Speedy Searching
+          </li>
           <hr />
-          <li>Easy Sharing</li>
+          <li class="tablinks" onclick="openTab(event, 'sharing');">
+            Easy Sharing
+          </li>
           <hr />
         </ul>
         <!-- tab 1 -->
-        <article class="tab-1">
+        <article id="bookmarking" class="tab--content">
           <div class="features--img-container-1">
             <img
               alt="image bookmarks"
@@ -125,7 +131,7 @@
           <button>More Info</button>
         </article>
         <!-- tab 2 -->
-        <article class="tab-2">
+        <article id="searching" class="tab--content">
           <div class="features--img-container-2">
             <img
               alt="image Intelligent search"
@@ -142,7 +148,7 @@
           <button>More Info</button>
         </article>
         <!-- tab 3 -->
-        <article class="tab-3">
+        <article id="sharing" class="tab--content">
           <div class="features--img-container-3">
             <img
               alt="image share your bookmarks"

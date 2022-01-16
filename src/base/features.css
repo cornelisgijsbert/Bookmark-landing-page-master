@@ -29,7 +29,7 @@ ul.features--tabs {
   font-size: var(--font--tab--mobile);
 }
 
-ul.features--tabs li {
+ul.features--tabs li.active {
   border-bottom: 0.3em solid var(--soft-red);
 }
 
@@ -46,11 +46,9 @@ section.features article {
 }
 /* tab 1 */
 
-/*
-  section.features article.tab-1 {
-      display: block;
-  }
-  */
+section.features article.tab--content {
+  display: none;
+}
 
 section.features div.features--img-container-1 {
   position: relative;
@@ -72,10 +70,6 @@ section.features div.features--img-bg-1 {
 
 /* tab 2 */
 
-section.features article.tab-2 {
-  display: none;
-}
-
 section.features div.features--img-container-2 {
   position: relative;
   width: 100%;
@@ -95,10 +89,6 @@ section.features div.features--img-bg-2 {
 }
 
 /* tab 3 */
-
-section.features article.tab-3 {
-  display: none;
-}
 
 section.features div.features--img-container-3 {
   position: relative;
