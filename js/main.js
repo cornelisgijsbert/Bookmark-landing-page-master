@@ -8,7 +8,7 @@ function showMenu() {
         mobileMenuLogo.className += " filter-logo";
     }
 }
-
+//-----------------------------------------------------------------------------
 function closeMenu() {
     mobileMenu.className = "top--nav--content";
     mobileMenuLogo.className = "top--nav--logo";
@@ -31,7 +31,7 @@ function openTab(evt, tabName) {
 }
 // get the element with the id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
-
+//-----------------------------------------------------------------------------
 // faq
 var acc = document.getElementsByClassName("faq--questions-header");
 var i;
@@ -39,13 +39,8 @@ for (i = 0; i < acc.length; i++) {
     acc[i].addEventListener("click", function() {
         /* Toggle between adding and removing the "active" class,
         to highlight the button that controls the panel */
-        /*this.classList.toggle("active");*/
-        var x;
-        var arrowBtn = document.getElementsByClassName("faq--questions---btn");
-        for (x = 0; x < arrowBtn.length; i++) {
-            arrowBtn[x].className = this.className += (" img--active", "");
-            arrowBtn[x].className += " img--active";
-        }
+        this.classList.toggle("faq--active");
+
         /* Toggle between hiding and showing the active panel */
         var panel = this.nextElementSibling;
         if (panel.style.display === "block") {
@@ -53,7 +48,6 @@ for (i = 0; i < acc.length; i++) {
         } else {
             panel.style.display = "block";
         }
-
-        //for(x =0; x < arrowBtn.length; i++)
+        console.log(acc);
     });
 }

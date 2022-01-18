@@ -27,6 +27,7 @@ section.features p.features--para {
 
 ul.features--tabs {
   font-size: var(--font--tab--mobile);
+  cursor: pointer;
 }
 
 ul.features--tabs li.active {

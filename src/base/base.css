@@ -122,14 +122,28 @@ section.faq h4.faq--questions-header {
   cursor: pointer;
 }
 
-section.faq img.faq--questions---btn {
+section.faq h4.faq--questions-header::after {
+  content: "";
+  background-image: url("../../images/icon-arrow.svg");
+  background-repeat: no-repeat;
+  float: right;
+  width: 18px;
+  height: 12px;
+}
+.faq--active::after {
+  transform: scaleY(-1);
+  filter: hue-rotate(90deg);
+}
+
+/*section.faq img.faq--questions--btn {
   float: right;
 }
 
 section.faq img.img--active {
+  float: right;
   transform: scaleY(-1);
   filter: hue-rotate(90deg);
-}
+}*/
 
 section.faq hr {
   background-color: var(--grayish-blue);
