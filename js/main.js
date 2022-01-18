@@ -42,7 +42,10 @@ for (i = 0; i < acc.length; i++) {
         /*this.classList.toggle("active");*/
         var x;
         var arrowBtn = document.getElementsByClassName("faq--questions---btn");
-
+        for (x = 0; x < arrowBtn.length; i++) {
+            arrowBtn[x].className = this.className += (" img--active", "");
+            arrowBtn[x].className += " img--active";
+        }
         /* Toggle between hiding and showing the active panel */
         var panel = this.nextElementSibling;
         if (panel.style.display === "block") {
