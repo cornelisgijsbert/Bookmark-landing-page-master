@@ -2,7 +2,7 @@
 header.intro {
   display: flex;
   flex-direction: column;
-  row-gap: 2rem;
+  row-gap: 3.5rem;
   /*width: 83%;*/
   width: 100%;
   padding: 0 0.7rem;
@@ -33,7 +33,17 @@ h1.intro--header {
 
 header.intro p.intro--para {
   color: var(--grayish-blue);
-  margin: 0 2.3rem;
+  margin: 1.625rem 2.3rem 2.25rem 2.3rem;
   font-size: var(--font--para--l--mobile);
   line-height: 1.8;
+}
+
+@media only screen and (min-width: 768px) {
+  header.intro {
+    flex-direction: row-reverse;
+    padding: 0 3.6% 0 11.45%;
+  }
+  header.intro div {
+    width: 33.4%;
+  }
 }
