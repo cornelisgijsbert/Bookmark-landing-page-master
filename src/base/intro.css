@@ -3,16 +3,19 @@ header.intro {
   display: flex;
   flex-direction: column;
   row-gap: 3.5rem;
-  /*width: 83%;*/
   width: 100%;
-  padding: 0 0.7rem;
+  /*padding: 0 0.7rem;*/
   text-align: center;
 }
 
 header.intro .intro--img-container {
   position: relative;
   width: 100%;
-  /*height: calc(100vw / 1.44);*/
+}
+
+header.intro .intro--img-container img {
+  width: 92.54%;
+  /*margin-right: calc(100vw * 0.0361);*/
 }
 
 header.intro .intro--img-container::after {
@@ -21,23 +24,17 @@ header.intro .intro--img-container::after {
   position: absolute;
   z-index: -1;
   top: 23%;
-  right: -0.7rem;
+  right: 0;
   width: 77.6vw;
   /*1,43349753695*/
   height: calc(77.6vw / 1.5);
   border-bottom-left-radius: 32%;
 }
 
-/*header.intro .intro--img-bg {
-  position: absolute;
-  right: -0.7rem;
-  bottom: 0;
-  z-index: -1;
-  background-color: var(--soft-blue);
-  width: 80%;
-  height: calc(100vw / 1.8473);
-  border-bottom-left-radius: 32%;
-}*/
+header.intro div {
+  width: calc(100vw * 0.8293);
+  margin: 0 auto;
+}
 
 h1.intro--header {
   font-size: var(--font--h1--mobile);
@@ -46,7 +43,7 @@ h1.intro--header {
 
 header.intro p.intro--para {
   color: var(--grayish-blue);
-  margin: 1.625rem 2.3rem 2.25rem 2.3rem;
+  margin: 1.625rem 1em 2.25rem 1em;
   font-size: var(--font--para--l--mobile);
   line-height: 1.8;
 }
@@ -56,14 +53,24 @@ header.intro p.intro--para {
     flex-direction: row-reverse;
     justify-content: space-between;
     row-gap: 0;
-    padding: 0 3.6% 0 11.45%;
+    padding: 0 0 0 11.45%;
     text-align: left;
   }
   header.intro div {
     width: calc(100vw * 0.334);
   }
   header.intro .intro--img-container {
-    width: calc(100vw * 0.456);
+    width: calc(100vw * 0.4931);
+    margin: 0;
+  }
+  header.intro .intro--img-container img {
+    width: 92.54%;
+    margin-right: calc(100vw * 0.0361);
+  }
+  header.intro .intro--img-container::after {
+    top: 30%;
+    width: 35.138vw;
+    height: calc(35.138vw / 1.5);
   }
   header.intro p.intro--para {
     margin: 1.625rem 2.3rem 2.25rem 0;
