@@ -1,3 +1,4 @@
+/* navigation top landing page */
 nav.top--nav {
   position: relative;
   width: 100%;
@@ -28,14 +29,14 @@ nav img.top--nav--close {
 
 div.top--nav--content {
   position: absolute;
-  top: 3.5rem;
+  top: 3rem;
   right: 11.458%;
 }
 
 ul.top--nav--links {
   display: flex;
   flex-direction: row;
-  column-gap: 3.5em;
+  column-gap: 4.08em;
   align-items: baseline;
   font-size: var(--font--nav--top--desktop);
   text-transform: uppercase;
@@ -52,7 +53,7 @@ ul.top--nav--links li:last-child {
   color: white;
   border: solid 2px var(--soft-red);
   border-radius: 5px;
-  padding: 0.8em 2.3em;
+  padding: 1em 2.75em;
 }
 
 ul.top--nav--links li:last-child:hover {

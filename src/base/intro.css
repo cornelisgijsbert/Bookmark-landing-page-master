@@ -4,7 +4,6 @@ header.intro {
   flex-direction: column;
   row-gap: 3.5rem;
   width: 100%;
-  /*padding: 0 0.7rem;*/
   text-align: center;
 }
 
@@ -15,7 +14,6 @@ header.intro .intro--img-container {
 
 header.intro .intro--img-container img {
   width: 92.54%;
-  /*margin-right: calc(100vw * 0.0361);*/
 }
 
 header.intro .intro--img-container::after {
@@ -53,11 +51,12 @@ header.intro p.intro--para {
     flex-direction: row-reverse;
     justify-content: space-between;
     row-gap: 0;
-    padding: 0 0 0 11.45%;
+    padding: 2.8rem 0 0 11.45%;
     text-align: left;
   }
   header.intro div {
     width: calc(100vw * 0.334);
+    margin: 0 0;
   }
   header.intro .intro--img-container {
     width: calc(100vw * 0.4931);
@@ -68,10 +67,14 @@ header.intro p.intro--para {
     margin-right: calc(100vw * 0.0361);
   }
   header.intro .intro--img-container::after {
-    top: 30%;
+    top: calc(100vw * 0.1);
     width: 35.138vw;
     height: calc(35.138vw / 1.5);
   }
+  h1.intro--header {
+    margin-top: 5rem;
+  }
+
   header.intro p.intro--para {
     margin: 1.625rem 2.3rem 2.25rem 0;
   }

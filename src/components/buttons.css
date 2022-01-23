@@ -20,17 +20,17 @@ button.intro--chrome {
   font-family: "Rubik", sans-serif;
   font-weight: 500;
   border-color: var(--soft-blue);
-  box-shadow: 0.1rem 0.1rem 0.3rem var(--soft-blue);
+  box-shadow: 0.1rem 0.1rem 1rem var(--soft-blue);
 }
 
 button.intro--firefox {
-  background-color: rgb(247, 247, 247);
+  background-color: #fbfbf9;
   width: 9.125rem;
   height: 3rem;
   font-family: "Rubik", sans-serif;
   font-weight: 500;
-  border-color: rgb(247, 247, 247);
-  box-shadow: 0.1rem 0.1rem 0.3rem rgb(247, 247, 247);
+  border-color: #fbfbf9;
+  box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
 
 @media only screen and (min-width: 768px) {
