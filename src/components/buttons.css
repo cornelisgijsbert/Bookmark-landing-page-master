@@ -33,6 +33,12 @@ button.intro--firefox {
   box-shadow: 0.1rem 0.1rem 0.3rem rgb(247, 247, 247);
 }
 
+@media only screen and (min-width: 768px) {
+  form.btns {
+    margin: 0 0;
+  }
+}
+
 /* button features*/
 
 section.features article button {
