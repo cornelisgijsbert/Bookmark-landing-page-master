@@ -41,9 +41,15 @@ header.intro p.intro--para {
 @media only screen and (min-width: 768px) {
   header.intro {
     flex-direction: row-reverse;
+    justify-content: space-between;
+    row-gap: 0;
     padding: 0 3.6% 0 11.45%;
+    text-align: left;
   }
   header.intro div {
-    width: 33.4%;
+    width: calc(100vw * 0.334);
+  }
+  header.intro .intro--img-container {
+    width: calc(100vw * 0.456);
   }
 }
