@@ -53,6 +53,12 @@ section.features article button {
   border-radius: 0.25rem;
 }
 
+@media only screen and (min-width: 768px) {
+  section.features article button {
+    display: block;
+  }
+}
+
 /* button download */
 
 section.download .download--cards button {

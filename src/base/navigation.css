@@ -64,7 +64,7 @@ ul.top--nav--links li:last-child:hover {
 /* navigation features tabs */
 
 ul.features--tabs li {
-  padding: 1.3125rem 0;
+  padding: 1.25rem 0;
 }
 
 @media only screen and (max-width: 767px) {
