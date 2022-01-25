@@ -155,6 +155,7 @@ ul.features--tabs li {
 }
 
 /* navigation bottom */
+
 nav.bottom--nav {
   display: flex;
   flex-direction: column;
@@ -184,4 +185,24 @@ nav.bottom--nav div.social--media {
   width: 5.5rem;
   padding-top: 0.625rem;
   padding-bottom: 2.75rem;
+}
+
+@media only screen and (min-width: 768px) {
+  nav.bottom--nav {
+    flex-direction: row;
+    row-gap: 0;
+    justify-content: space-between;
+    padding-right: 11.45%;
+    padding-bottom: 2.8rem;
+    padding-left: 11.53%;
+  }
+  nav.bottom--nav ul.bottom--nav--links {
+    flex-direction: row;
+    column-gap: 3rem;
+    row-gap: 0;
+  }
+  nav.bottom--nav div.social--media {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
 }
