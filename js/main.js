@@ -73,7 +73,7 @@ email.addEventListener("input", function (event) {
         emailError.textContent = "";
         emailError.className = "error";
     } else {
-        show.Error();
+        showError();
     }
 });
 
