@@ -1,271 +1,278 @@
 body {
-    font-family: "Rubik", sans-serif;
-    font-size: 1.125rem;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.125rem;
 }
 
 div.wrapper {
-    max-width: 1440px;
+  max-width: 1440px;
 }
-
 
 /* section download */
 
 section.download {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    margin-bottom: 8.4375rem;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 8.4375rem;
+  text-align: center;
 }
 
 .download h2 {
-    font-size: var(--font--h2--mobile);
-    font-weight: 500;
+  font-size: var(--font--h2--mobile);
+  font-weight: 500;
 }
 
 .download p {
-    font-size: var(--font--para--l--mobile);
-    font-weight: 400;
+  font-size: var(--font--para--l--mobile);
+  font-weight: 400;
 }
 
 .download h3 {
-    font-size: var(--font--h3--mobile);
-    font-weight: 500;
+  font-size: var(--font--h3--mobile);
+  font-weight: 500;
 }
 
 section.download h2.download--header {
-    width: 18rem;
-    margin-top: 4.7em;
-    padding-bottom: 0.8em;
+  width: 18rem;
+  margin-top: 4.7em;
+  padding-bottom: 0.8em;
 }
 
 section.download p.download--para {
-    width: 18rem;
-    color: var(--grayish-blue);
-    padding-bottom: 3.5em;
-    line-height: 1.5;
+  width: 18rem;
+  color: var(--grayish-blue);
+  padding-bottom: 3.5em;
+  line-height: 1.5;
 }
 
 section.download ul.download--cards {
-    display: flex;
-    flex-direction: column;
-    row-gap: 2em;
-    align-items: center;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2em;
+  align-items: center;
+  width: 100%;
 }
 
 section.download ul.download--cards li {
-    width: 280px;
-    border: 1px solid gray;
-    border-top: none;
-    border-right: 0.1px solid #e8e8f2;
-    border-bottom: 0.1px solid #e8e8f2;
-    border-left: 0.1px solid #e8e8f2;
-    border-radius: 0 0 0.5em 0.5em;
-    text-align: center;
-    box-shadow: -0.1px 10px 10px 1px #f0f5f5, 0.1px 10px 10px 1px #f0f5f5;
+  width: 280px;
+  border: 1px solid gray;
+  border-top: none;
+  border-right: 0.1px solid #e8e8f2;
+  border-bottom: 0.1px solid #e8e8f2;
+  border-left: 0.1px solid #e8e8f2;
+  border-radius: 0 0 0.5em 0.5em;
+  text-align: center;
+  box-shadow: -0.1px 10px 10px 1px #f0f5f5, 0.1px 10px 10px 1px #f0f5f5;
 }
 
 section.download img.download--cards-logo {
-    margin-top: 2em;
+  margin-top: 2em;
 }
 
 section.download h3.download--cards-header {
-    padding-top: 1.8em;
-    padding-bottom: 0.7em;
+  padding-top: 1.8em;
+  padding-bottom: 0.7em;
 }
 
 section.download p.download--cards-para {
-    padding-bottom: 1.8em;
-    color: var(--grayish-blue);
+  padding-bottom: 1.8em;
+  color: var(--grayish-blue);
 }
 
 section.download h2.download--card-header {
-    padding-bottom: 1em;
+  padding-bottom: 1em;
 }
 
 @media only screen and (min-width: 768px) {
-    .download h2 {
-        font-size: var(--font--h2--desktop);
-    }
-    .download p {
-        font-size: var(--font--para--l--desktop);
-    }
-    .download h3 {
-        font-size: var(--font--h3--desktop);
-    }
-    section.download h2.download--header {
-        width: 34rem;
-    }
-    section.download p.download--para {
-        width: 34rem;
-    }
-    section.download ul.download--cards {
-        flex-direction: row;
-        justify-content: space-between;
-        row-gap: 0;
-        width: 67%;
-        height: 458px;
-    }
-    section.download li.download--cards-chrome {
-        align-self: flex-start;
-    }
-    section.download li.download--cards-firefox {
-        align-self: center;
-    }
-    section.download li.download--cards-opera {
-        align-self: flex-end;
-    }
+  .download h2 {
+    font-size: var(--font--h2--desktop);
+  }
+  .download p {
+    font-size: var(--font--para--l--desktop);
+  }
+  .download h3 {
+    font-size: var(--font--h3--desktop);
+  }
+  section.download h2.download--header {
+    width: 34rem;
+  }
+  section.download p.download--para {
+    width: 34rem;
+  }
+  section.download ul.download--cards {
+    flex-direction: row;
+    justify-content: space-between;
+    row-gap: 0;
+    width: 67%;
+    height: 458px;
+  }
+  section.download li.download--cards-chrome {
+    align-self: flex-start;
+  }
+  section.download li.download--cards-firefox {
+    align-self: center;
+  }
+  section.download li.download--cards-opera {
+    align-self: flex-end;
+  }
 }
-
 
 /* section faq */
 
 section.faq {
-    display: flex;
-    flex-direction: column;
-    row-gap: 1.25rem;
-    width: 19.5rem;
-    margin: 0 auto;
-    padding-bottom: 7.6875rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.25rem;
+  width: 19.5rem;
+  margin: 0 auto;
+  padding-bottom: 7.6875rem;
 }
 
 section.faq h2.faq--header {
-    font-size: var(--font--h2--mobile);
-    font-weight: 500;
-    padding-top: 0;
-    padding-right: 0.5em;
-    padding-bottom: 0.3em;
-    padding-left: 0.5em;
-    text-align: center;
+  font-size: var(--font--h2--mobile);
+  font-weight: 500;
+  padding-top: 0;
+  padding-right: 0.5em;
+  padding-bottom: 0.3em;
+  padding-left: 0.5em;
+  text-align: center;
 }
 
 section.faq p.faq--para {
-    font-size: var(--font--para--l--mobile);
-    color: var(--grayish-blue);
-    padding-top: 0;
-    padding-right: 0.5em;
-    padding-bottom: 4em;
-    padding-left: 0.5em;
-    text-align: center;
-    line-height: 2;
+  font-size: var(--font--para--l--mobile);
+  color: var(--grayish-blue);
+  padding-top: 0;
+  padding-right: 0.5em;
+  padding-bottom: 4em;
+  padding-left: 0.5em;
+  text-align: center;
+  line-height: 2;
 }
 
 section.faq h4.faq--questions-header {
-    padding-top: 0.5em;
-    color: var(--very-dark-blue);
-    font-size: var(--font--h4--mobile);
-    font-weight: 500;
-    cursor: pointer;
+  padding-top: 0.5em;
+  color: var(--very-dark-blue);
+  font-size: var(--font--h4--mobile);
+  font-weight: 500;
+  cursor: pointer;
 }
 
 section.faq h4.faq--questions-header:hover {
-    color: var(--soft-red);
+  color: var(--soft-red);
 }
 
 section.faq h4.faq--questions-header::after {
-    content: "";
-    background-image: url(../images/icon-arrow.svg);
-    background-repeat: no-repeat;
-    float: right;
-    width: 18px;
-    height: 12px;
+  content: "";
+  background-image: url(../images/icon-arrow.svg);
+  background-repeat: no-repeat;
+  float: right;
+  width: 18px;
+  height: 12px;
 }
 
 .faq--active::after {
-    transform: scaleY(-1);
-    filter: hue-rotate(90deg);
+  transform: scaleY(-1);
+  filter: hue-rotate(90deg);
 }
 
 section.faq hr {
-    background-color: var(--grayish-blue);
-    color: var(--grayish-blue);
-    height: 0.0625rem;
-    border-width: 0;
-    opacity: 0.5;
+  background-color: var(--grayish-blue);
+  color: var(--grayish-blue);
+  height: 0.0625rem;
+  border-width: 0;
+  opacity: 0.5;
 }
 
 section.faq p.faq--answer-para {
-    font-size: var(--font--para--l--mobile);
-    color: var(--grayish-blue);
-    padding-top: 1em;
-    padding-bottom: 1em;
-    line-height: 2;
-    letter-spacing: 0.05em;
-    display: none;
+  font-size: var(--font--para--l--mobile);
+  color: var(--grayish-blue);
+  padding-top: 1em;
+  padding-bottom: 1em;
+  line-height: 2;
+  letter-spacing: 0.05em;
+  display: none;
 }
 
 @media only screen and (min-width: 768px) {
-    section.faq {
-        width: 38%;
-    }
-    section.faq h2.faq--header {
-        font-size: var(--font--h2--desktop);
-    }
-    section.faq p.faq--para {
-        font-size: var(--font--para--l--desktop);
-    }
-    section.faq h4.faq--questions-header {
-        font-size: var(--font--h4--desktop);
-        font-weight: 400;
-    }
-    section.faq p.faq--answer-para {
-        font-size: var(--font--para--l--desktop);
-    }
+  section.faq {
+    width: 38%;
+  }
+  section.faq h2.faq--header {
+    font-size: var(--font--h2--desktop);
+  }
+  section.faq p.faq--para {
+    font-size: var(--font--para--l--desktop);
+  }
+  section.faq h4.faq--questions-header {
+    font-size: var(--font--h4--desktop);
+    font-weight: 400;
+  }
+  section.faq p.faq--answer-para {
+    font-size: var(--font--para--l--desktop);
+  }
 }
-
 
 /* contact-us */
 
 section.contact--us {
-    background-color: var(--soft-blue);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: white;
-    padding-top: 4rem;
-    padding-right: 2rem;
-    padding-bottom: 4rem;
-    padding-left: 2rem;
-    text-align: center;
+  background-color: var(--soft-blue);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding-top: 4rem;
+  padding-right: 2rem;
+  padding-bottom: 4rem;
+  padding-left: 2rem;
+  text-align: center;
 }
 
-section.contact--us span {
-    font-size: var(--font--para--m--mobile);
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 0.3em;
+section.contact--us span.contact--us-joined {
+  font-size: var(--font--para--m--mobile);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
 }
 
 section.contact--us h2 {
-    font-size: var(--font--h2--mobile);
-    padding-top: 0.909em;
-    padding-bottom: 1.4545em;
+  font-size: var(--font--h2--mobile);
+  padding-top: 0.909em;
+  padding-bottom: 1.4545em;
+}
+
+section.contact--us .error {
+  background-color: var(--soft-red);
+  color: white;
+  padding: 0;
+}
+
+section.contact--us .error .active {
+  padding: 0.5rem;
+  width: 19.4375rem;
 }
 
 @media only screen and (min-width: 768px) {
-    section.contact--us span {
-        /*font-size: var(--font--para--m--desktop);*/
-        max-width: 27.69rem;
-    }
-    section.contact--us h2 {
-        font-size: var(--font--h2--desktop);
-        max-width: 27.69rem;
-    }
+  section.contact--us span.contact--us-joined {
+    /*font-size: var(--font--para--m--desktop);*/
+    max-width: 27.69rem;
+  }
+  section.contact--us h2 {
+    font-size: var(--font--h2--desktop);
+    max-width: 27.69rem;
+  }
 }
-
 
 /* footer */
 
 footer {
-    background-color: var(--very-dark-blue);
-    padding-top: 2.5rem;
-    padding-bottom: 2.75rem;
+  background-color: var(--very-dark-blue);
+  padding-top: 2.5rem;
+  padding-bottom: 2.75rem;
 }
 
 @media only screen and (min-width: 768px) {
-    footer {
-        padding-top: 1.75rem;
-    }
+  footer {
+    padding-top: 1.75rem;
+  }
 }
