@@ -151,6 +151,10 @@ section.contact--us input[type="email"]:invalid {
   border: solid 0.15rem var(--soft-red);
 }
 
+section.contact--us input[type="email"]:valid {
+	border: solid 0.15rem black;
+}
+
 section.contact--us button {
   background-color: var(--soft-red);
   color: white;

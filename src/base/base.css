@@ -244,11 +244,14 @@ section.contact--us h2 {
 section.contact--us .error {
   background-color: var(--soft-red);
   color: white;
+  font-size: var(--font--para--m--mobile);
+  margin-top: 0;
   padding: 0;
 }
 
-section.contact--us .error .active {
+section.contact--us .error.active {
   padding: 0.5rem;
+  text-align: left;
   width: 19.4375rem;
 }
 

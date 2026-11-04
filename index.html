@@ -268,14 +268,17 @@
         <span class="contact--us-joined">35,000+ already joined</span>
         <h2>Stay up-to-date with what we’re doing</h2>
         <form class="contact--us-btns" novalidate>
+			<p style="display: flex; flex-direction: column;">
           <input
             placeholder="Enter your email addres"
             type="email"
             id="mail"
             name="mail"
+            required minlength="8"
           />
-          <span class="error"></span>
-          <button type="submit">Contact Us</button>
+          <span class="error" aria-live="polite"></span>
+          </p>
+          <button type="button">Contact Us</button>
         </form>
       </section>
       <footer>

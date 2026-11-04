@@ -53,42 +53,42 @@ for (i = 0; i < acc.length; i++) {
 }
 //-----------------------------------------------------------------------------
 // contact us
-/*
-const email = document.getElementById("mail");
-email.addEventListener("input", (event) => {
-    if (email.validity.typeMismatch) {
-        email.setCustomValidity("Whoops, make sure it's an email");
-    } else {
-        email.setCustomValidity("");
-    }
-});
-*/
-
-const form = document.getElementsByTagName("form")[0];
-const email = document.getElementById("mail");
+const form = document.querySelector("form");
+const email = document.getElementById("mail")
 const emailError = document.querySelector("#mail + span.error");
-
-/*email.addEventListener("input", function (event) {
-    if (email.validity.valid) {
-        emailError.textContent = "";
-        emailError.className = "error";
-    } else {
-        showError();
-    }
-});*/
-
-form.addEventListener("submit", function (event) {
-    if (!email.validity.valid) {
-        showError();
-        event.preventDefault();
-    }
+email.addEventListener("input", (event) => {
+	if (email.validity.valid) {
+		// remove the message content
+		emailError.textContent = "";
+		// remove the `active` class
+		emailError.className = "error";
+	} else {
+		/* if there is still an error, show the correct error */
+		showError();
+	}
 });
-
+form.addEventListener ("submit", (event) => {
+	// if the email field is invalid
+	if (!email.validity.Valid) {
+		showError();
+		// prevent form submission
+		event.preventDefault();
+	}
+});
 function showError() {
-    if (email.validity.valueMissing) {
-        emailError.textContent = "You need to enter an email adress";
-    } else if (email.validity.typeMismatch) {
-        emailError.textContent = "Whoops, make sure it's an email";
-    }
-    emailError.className = "error active";
+	if (email.validity.valueMissing) {
+		// if empty
+		emailError.textContext = "You need to enter an email address.";
+	} else if (email.validity.typeMismatch) {
+		// if it's not an email address,
+		emailError.textContent = "Whoops, make sure it's an email.";
+	} else if (email.validity.tooShort) {
+		// if the value is too short,
+		emailError.textContent = `Email should be at least ${email.minLength} characters; you entered ${email.value.length}.`;
+	}
+	// add the `active` class
+	emailError.className = "error active"
 }
+form.addEventListener ("submit", (e) => {
+	e.preventDefault();
+});
