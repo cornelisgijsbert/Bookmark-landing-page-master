@@ -774,12 +774,6 @@
          column-gap: 1rem;
     row-gap: 0;
   }
-  /*
-  section.contact--us input,
-  button {
-    width: 0;
-  }
-  */
   section.contact--us input[type="email"] {
     width: 18.75rem;
   }
